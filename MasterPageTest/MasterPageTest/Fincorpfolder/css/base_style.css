@@ -1,0 +1,144 @@
+﻿*{
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+    font-size:15px;
+}
+#sidebar{
+    position:absolute;
+    width:230px;
+    min-height:100%;
+    background:#222d32;
+    transition:all 500ms linear;
+    left:-230px;
+    display:inline-block;
+}
+#sidebar.active{
+    left:0px;
+    /*width:-200px;*/
+}
+#sidebar ul li{
+    color:#b8c7ce;
+    list-style:none;
+    padding:15px 10px;
+    /*border-bottom:1px solid rgba(100,100,100,0.3);*/
+}
+#sidebar ul li a{
+    text-decoration:none;
+    width:200px;
+    color:#b8c7ce;
+}
+#sidebar ul li a span{
+    margin-left:5px;
+}
+#sidebar a:hover{
+    background:black;
+    color:white;
+}
+#sidebar ul li:hover{
+    background:black;
+    color:white;
+}
+/*#sidebar .toggle-btn{
+    position:absolute;
+    left:280px;
+    top:20px;
+}
+#sidebar .toggle-btn span{
+    display:block;
+    width:15px;
+    height:3px;
+    background:#367fa9;
+    margin:1px 0px;
+    border-radius:1px;
+}*/
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background:#3c8dbc;
+    height:50px;
+}
+.navbar-header { 
+    color: rgb(127,127,127); 
+
+}
+.navbar .navbar-header .toggle-btn{
+    position:absolute;
+    left:240px;
+    top:15px;
+    
+}
+.navbar .navbar-header .toggle-btn span{
+    display:block;
+    width:15px;
+    height:3px;
+    /*background:#367fa9;*/
+    background:white;
+    margin:2px 0px;
+}
+.logo{
+    text-decoration:none;
+    color:white;
+}
+.logo-lg{
+    display:block;
+    text-decoration:none;
+    text-decoration-style:none;
+    margin-top:12px;
+    p/*adding-top:12px;*/
+    margin-right:10px;
+    margin-left:25px;
+    font-size:20px;
+}
+.logo-lg>b{
+    font-size:20px;
+    font-weight:bold;
+}
+.logo-mini{
+    display:none;
+}
+.templatemo-content-wrapper {
+    position:relative;
+    float: left;
+    width: 100%;
+}
+.templatemo-content {
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom:20px;
+    min-height: 800px;
+    padding: 25px 20px 0 20px;
+    background-color: white;
+    overflow-x: hidden;
+    transition:all 500ms linear;
+}
+.templatemo-content-wrapper .templatemo-content.active{
+    margin-left:235px;
+}
+/*.page-footer{
+    position:fixed;
+    padding-top:30px;
+    padding-bottom:50px;
+    bottom:0px;
+    border-top:1px solid #ddd;
+    width:100%;
+    text-align:center;
+    background:white;
+    transition:all 500ms linear;
+}*/
+.page-footer{
+    position:absolute;
+    /*padding-top:30px;*/
+    padding-bottom:50px;
+    bottom:0px;
+    border-top:1px solid #ddd;
+    width:100%;
+    text-align:center;
+    background:white;
+    transition:all 500ms linear;
+}
+.page-footer.active{
+    margin-left:230px;
+}
+

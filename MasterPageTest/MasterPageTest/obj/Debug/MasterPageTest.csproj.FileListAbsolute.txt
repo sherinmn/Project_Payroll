@@ -1,0 +1,12 @@
+c:\users\sheri\documents\visual studio 2013\Projects\MasterPageTest\MasterPageTest\bin\MasterPageTest.dll.config
+c:\users\sheri\documents\visual studio 2013\Projects\MasterPageTest\MasterPageTest\bin\MasterPageTest.dll
+c:\users\sheri\documents\visual studio 2013\Projects\MasterPageTest\MasterPageTest\bin\MasterPageTest.pdb
+c:\users\sheri\documents\visual studio 2013\Projects\MasterPageTest\MasterPageTest\obj\Debug\MasterPageTest.csprojResolveAssemblyReference.cache
+c:\users\sheri\documents\visual studio 2013\Projects\MasterPageTest\MasterPageTest\obj\Debug\MasterPageTest.dll
+c:\users\sheri\documents\visual studio 2013\Projects\MasterPageTest\MasterPageTest\obj\Debug\MasterPageTest.pdb
+C:\Users\sheri\Desktop\Projects\MasterPageTest\MasterPageTest\MasterPageTest\bin\MasterPageTest.dll.config
+C:\Users\sheri\Desktop\Projects\MasterPageTest\MasterPageTest\MasterPageTest\bin\MasterPageTest.dll
+C:\Users\sheri\Desktop\Projects\MasterPageTest\MasterPageTest\MasterPageTest\bin\MasterPageTest.pdb
+C:\Users\sheri\Desktop\Projects\MasterPageTest\MasterPageTest\MasterPageTest\obj\Debug\MasterPageTest.csprojResolveAssemblyReference.cache
+C:\Users\sheri\Desktop\Projects\MasterPageTest\MasterPageTest\MasterPageTest\obj\Debug\MasterPageTest.dll
+C:\Users\sheri\Desktop\Projects\MasterPageTest\MasterPageTest\MasterPageTest\obj\Debug\MasterPageTest.pdb

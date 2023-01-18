@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FinCorpLookAlike.master.cs" Inherits="MasterPageTest.FinCorpLookAlike" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <meta name="viewport" content="width=device-width"/>
+    <script src="Fincorpfolder/js/ToggleSidebar.js"></script>
+    <link href="Fincorpfolder/css/base_style.css" rel="stylesheet" />
+    <link href="Fincorpfolder/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="Fincorpfolder/css/bootstrap.min.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="navbar" role="navigation">
+            <div class="navbar-header">
+                <a href="#" class="logo">
+                <!-- mini logo for sidebar mini 50x50 pixels -->
+                <span class="logo-mini"><b>FinCorp</b></span>
+                <!-- logo for regular state and mobile devices -->
+                <span class="logo-lg"><b>Fin</b>Corp</span>
+                </a>
+                <div class="toggle-btn" onclick="togglesidebar()">
+                <span></span>
+                <span></span>
+                <span></span>
+                </div>
+                <%--<div>
+                    <span><b>ABC</b></span>
+                </div>--%>
+                </div>
+        </div>
+        <div class="templatemo-content-wrapper">
+    <div>
+        <div id="sidebar">
+            <ul>
+                <li>
+                    <a href="Organization_Details.aspx">
+                            <i class="fa fa-building"></i><span>Organization Setup</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Tax_Details.aspx">
+                            <i class="fa fa-file"></i><span>Tax Details</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Salary_Schedule.aspx">
+                            <i class="fa fa-calendar"></i><span>Salary Schedule</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Statutory_Components.aspx">
+                            <i class="fa fa-database"></i><span>Statutory Components</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Salary_Components.aspx">
+                            <i class="fa fa-inr"></i><span>Salary Components</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    
+        <div class="templatemo-content" id="page-content">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>
+            <footer class="page-footer" id="bottom-footer">
+            <strong>copyright &copy; 2019 <a href="#">fincorp</a>.</strong> all rights reserved.
+        </footer>
+      </div>
+        
+        </div>
+        <script src="Fincorpfolder/js/jquery.min.js"></script>
+        <script src="Fincorpfolder/js/bootstrap.min.js"></script>
+    </form>
+</body>
+</html>

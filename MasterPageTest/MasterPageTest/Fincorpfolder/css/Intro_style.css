@@ -1,0 +1,429 @@
+﻿body {
+    font-family:sans-serif;
+}
+.Intro{
+    color:#999999;
+}
+.Intro-head{
+    font-size:medium;
+    font-weight:bold;
+}
+.Intro-sub{
+    font-size:small;
+}
+/*old.....
+    .box-border{
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border:1px solid #ddd;
+}*/
+/*new*/
+.box-border{
+    border:1px solid #ccc;
+    border-color: #d2d6de;
+    height:34px;
+    font-size:14px;
+    color:#555;
+    padding: 6px 12px;
+    margin-bottom:20px;
+}
+/*new*/
+.txtbox-border{
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #d2d6de;
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    margin-bottom:20px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+}
+/*new*/
+.label-align{
+    text-align:right;
+    /*margin-right:5px;*/
+}
+
+:-ms-input-placeholder{
+    color:#ddd;
+}
+.form-control {
+    color: #ddd;
+    font-size: 14px;
+    margin-top: 4px;
+    padding: 2px 0;
+    border-radius: 0;
+    border-bottom: 1px solid #ddd;
+    box-shadow: none;
+    display:block;
+    border-left-style: none;
+    border-left-color: inherit;
+    border-left-width: medium;
+    border-right-style: none;
+    border-right-color: inherit;
+    border-right-width: medium;
+    border-top-style: none;
+    border-top-color: inherit;
+    border-top-width: medium;
+}
+.append-slash::after {
+    font-size: 20px!important;
+    font-family: AvertaLight;
+    color: #b1b1b1;
+    padding-left: 8px!important;
+    padding-right: 8px!important;
+    content: '/';
+}
+.mtop-small {
+    margin-top: 5px!important;
+    width: 4px;
+}
+.display-flex {
+    display:flexbox;
+}
+.pleft-large {
+    padding-left: 15px!important;
+}
+.pright-large {
+    padding-right: 15px!important;
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.setup-row {
+    min-height: 75px;
+}
+.form-group {
+    margin-bottom: 25px;
+}
+.form-group::after,.row::before{
+    content: " ";
+    display: table;
+}
+.section {
+    margin-bottom: 30px;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+svg.icon{
+    width:16px;
+    height:16px;
+    fill:currentColor;
+}
+svg.icon.icon-sm{
+    height:14px;
+    width:14px;
+}
+.vertical-align-text-bottom{
+    vertical-align:text-bottom;
+}
+.settings-info-icon {
+    color: #333;
+}
+.pay-schedule-sub-header {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.mandatory-field {
+    color: #FF1E43;
+}
+.help-text {
+    font-size: 13px;
+    padding-bottom: 10px;
+    line-height: 1.6;
+    color:#333;
+    font-family: sans-serif;
+}
+/*weekdays selector*/
+.weekDays-selector input {
+  display: none!important;
+}
+
+.weekDays-selector input[type=checkbox] + label {
+  display: inline-block;
+  border-radius: 6px;
+  background: #dddddd;
+  height: 40px;
+  width: 50px;
+  margin-right: 3px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.weekDays-selector input[type=checkbox]:checked + label {
+  background: #c6ddf8;
+  /*color: #ffffff;*/
+}
+.radio-inline {
+    font-size: 13px;
+    font-weight:normal!important;
+    font-family:sans-serif;
+    color: #000;
+    margin-bottom: 15px;
+    cursor: default;
+    padding-left: 22px;
+    display: inline-block;
+}
+.pull-right{
+    float:right !important;
+}
+.pay-schedule-calendar {
+    border: 1px solid #F1F1F1;
+    border-radius: 2px;
+    width: 236px;
+    height: 270px;
+    padding: 3px 12px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.group {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.sub-group {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.section-small {
+    margin-bottom: 25px;
+}
+.font-moderate {
+    font-size: 18px!important;
+}
+.font-semibold {
+    font-family: sans-serif;
+}
+.sub-header {
+    font-size: 20px;
+    font-family:inherit;
+    margin-bottom: 15px;
+}
+.field-label, .sub-header {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/*.toggle-btn{
+    width:40px;
+    height:22px;
+    background:gray;
+    border-radius:30px;
+    padding:5px;
+    transition:all 300ms ease-in-out;
+}
+.toggle-btn > .inner-circle{
+    width:13px;
+    height:13px;
+    background:#fff;
+    border-radius:50%;
+    transition:all 300ms ease-in-out;
+}
+.toggle-btn.active{
+    background:#00acee;
+}
+.toggle-btn.active > .inner-circle{
+    margin-left:18px;*/
+}
+.outer-container{
+    position: relative;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transform: translateY(0);
+}
+.inner-container{
+    overflow:hidden;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+.statutory-panel {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px 5px 20px;
+    border: 0;
+    min-width: 450px;
+    max-width: 800px;
+    border-radius: 2px;
+}
+.statutory-panel, .statutory-panel:focus, .statutory-panel:hover {
+    box-shadow: 0 0 5px 3px #eee;
+}
+.payrun-detail-container {
+    position: relative;
+    margin-top: 14px;
+    margin-bottom: 40px;
+    min-width: 650px;
+}
+.ptop-medium {
+    padding-top: 10px!important;
+}
+.mbottom-medium {
+    margin-bottom: 10px!important;
+}
+.statutory-epf {
+    padding: 10px;
+    background-color: #FFF8E6;
+    margin-top: 0!important;
+    font-family:inherit;
+}
+.box-body{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 10px;
+    background-color: rgb(250,250,250);
+    margin-top: 0!important;
+    margin-left:20px;
+    font-family:inherit;
+}
+.font-mm {
+    font-size: 14px!important;
+}
+.mtop-medium {
+    margin-top: 10px!important;
+}
+.mbottom-medium {
+    margin-bottom: 10px!important;
+}
+.zp-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.setup .setup-container {
+    position: absolute;
+    left: 350px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+/*.setup-salary-components {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding-left: 30px;
+    padding-top: 55px;
+}*/
+.tabs{
+    width:100%;
+    height:350px;
+}
+.tabs_sidebar{
+    height:15%;
+}
+/* Style the tab */
+        .tab {
+		    overflow: hidden;
+            border:none;
+		    border-bottom: 1px solid #ddd;
+            width:100%;
+		}
+        /* Style the buttons that are used to open the tab content */
+		.tab #btn-earn,#btn-ded,#btn-reim {
+		    float: left;
+		    border: none;
+            background:none;
+		    outline: none;
+		    cursor: pointer;
+		    padding: 14px 16px;
+		    transition: 0.3s;
+		    color: #7d7f83;
+		    font-size: 13px;
+            font-family:sans-serif;
+		}
+
+		/* Change background color of buttons on hover */
+		.tab #btn-earn,#btn-ded,#btn-reim:hover {
+		    /*background-color: #61977e;*/
+            /*border-bottom:#ff0000;*/
+		}
+
+		/* Create an active/current tablink class */
+		.tab #btn-earn,#btn-ded,#btn-reim.active {
+            /*border-bottom:2px solid #ff0000 ;*/
+            display:block;
+		}
+		/* Style the tab content */
+		.tab-body {
+		    display: none;
+		    padding: 6px 12px;
+		    border-top: 1px solid #ddd;
+		}
+.tabs_button{
+    width:100%;
+    height:100%;
+    float:left;
+    border-right:none;
+    outline:none;
+    cursor:pointer;
+    padding:10px;
+    background-color:#eee;
+}
+.tabs_button:hover{
+    /*background-color:#c6ddf8;*/
+    background-color:#dddddd;
+}
+.tabs_button:active{
+    background-color:#c6ddf8;
+}
+/*.tabs_button:not(:last-of-type){
+    border-bottom:1px solid #eee;
+}*/
+
+.tabs_content{
+    padding:15px;
+    height:85%;
+    box-sizing:border-box;
+    font-family:inherit;
+}
+.table-head{
+    border-bottom:1px solid #dddddd;
+    font-weight:600;
+    height:30px;
+    font-family:inherit;
+    font-size:small;
+}
+.tab-dat-chk {
+            width: 5%;
+            height: 29px;
+            font-family: inherit;
+        }
+.tab-dat {
+            width: 260px;
+            height: 29px;
+            font-family: inherit;
+            font-size: small;
+        }
+.table-data-checkbox{
+    width:5%;
+    height:15px;
+    font-family:inherit;
+}
+.table-data{
+    width:260px;
+    height:100%;
+    font-family:inherit;
+    font-size:small;
+}
+#show{
+    display:block;
+}
+#data{
+    display:none;
+}
